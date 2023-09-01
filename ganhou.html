@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ganhou.css">
+    <title>Vitória !</title>
+    <style>
+        body {
+            background-size: cover;
+            background-image: url("img_melhor.jpg");
+            background-repeat: no-repeat;
+        }
+
+        h1 {
+            color: white;
+            font-size: 500%;
+            text-align: center;
+            margin-top: 10%;
+        }
+
+        #container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: nowrap;
+            flex-direction: row;
+            gap: 9%;
+            margin: 10%;
+            margin-left: 4%;
+        }
+
+        .novamente {
+            width: 15%;
+            padding: 10px;
+        }
+
+        .inicial {
+            width: 15%;
+            padding: 10px;
+        }
+
+        .inibot {
+            padding: 10%;
+            width: 150%;
+            border-radius: 50px;
+            font-family: initial;
+            font-size: 160%;
+            opacity: 0.8;
+        }
+
+        .novbot {
+            padding: 10%;
+            width: 150%;
+            border-radius: 50px;
+            font-family: initial;
+            font-size: 160%;
+            opacity: 0.8;
+        }
+
+        .novbot:hover {
+            background-color: black;
+            color: aliceblue;
+        }
+
+        .inibot:hover {
+            background-color: black;
+            color: aliceblue;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1> Parabéns, você ganhou!</h1>
+
+    <section id="container">
+        <div class="novamente">
+
+            <a href="tela_tema.html"><button class="novbot">Jogar Novamente</button></a>
+
+        </div>
+
+        <div class="inicial">
+            <a href="index.html"><button class="inibot">Tela Inicial</button></a>
+        </div>
+    </section>
+</body>
+
+</html>

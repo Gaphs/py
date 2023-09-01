@@ -1,0 +1,75 @@
+.quadro{
+    position: absolute;
+    width: 18%;
+    left: 55%;
+    top: 20%;
+    border: none;
+}
+
+.andar{
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+    animation-name: andar;
+}
+.cair{
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+    animation-name: cair;
+    left: 39%;
+    top: 15%;
+}
+
+.perna1 {
+    width: 40%;
+    justify-content: center;
+    position: absolute;
+    bottom:-5%;
+    left: 39%;
+    z-index: -2;
+}
+
+.perna2 {
+    width: 40%;
+    justify-content: center;
+    position: absolute;
+    bottom:-5%;
+    left: 32%;
+    z-index: -1;
+}
+
+@keyframes passo {
+
+    0%,
+    100% {
+        background: 0 0;
+    }
+
+    50% {
+        transform: rotate(20deg);
+    }
+}
+
+@keyframes andar {
+    0% {
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(-15vw) translateY(-4vw) scale(0.99);
+
+    }
+}
+@keyframes cair{
+    1%{
+        transform: translateX(-2vw) translateY(-3vw) scale(1);
+    }
+    50%{
+        transform: translateX(-3vw) translateY(2vw) scale(0.5);
+    }
+    100%{
+        transform: translateX(-3vw) translateY(3vw) scale(0);
+    }
+}

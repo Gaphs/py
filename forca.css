@@ -1,0 +1,89 @@
+* {
+    margin: 0%;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-image: url(forca_real.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+
+}
+
+.letras {
+    width: 35%;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+#btn-dica {
+    margin-top: 38%;
+    margin-left: 3%;
+    align-items: center;
+    border: none;
+    width: 15%;
+    padding: 0.2%;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.73);
+    text-decoration: none;
+    position: absolute;
+    font-size: 35px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+
+}
+
+#btn-dica:hover {
+    background-color: rgba(73, 73, 73, 0.73);
+}
+
+
+
+#dica-content{
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 2%;
+    padding: 15px;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    opacity: 0.8;
+}
+
+#dica-text{
+   font-style: italic;
+   color: black;
+   font-weight: 600;
+   font-size: 23px;
+}
+
+
+#voltar{
+    margin-top: 42%;
+    margin-left: 3%;
+    align-items: center;
+    border: none;
+    width: 15%;
+    padding: 0.2%;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.73);
+    text-decoration: none;
+    position: absolute;
+    font-size: 35px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+
+}
+
+#voltar:hover{
+    background-color: rgba(73, 73, 73, 0.73);
+}

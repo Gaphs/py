@@ -1,0 +1,66 @@
+
+*{
+    margin: 0%;
+}
+body{
+    background-size: cover;
+    position: absolute;
+    background-image: url('jack\'s\ save.png');
+    background-repeat: no-repeat;   
+    z-index: 999;
+    width: 100%;
+    
+ 
+}
+.b1{
+    margin-top: 31%;
+    margin-left: 39.5%;
+    box-shadow: 2px 6px;
+    width: 20%;
+    height: 65px;
+    border-radius: 20px;
+    background-color: rgba(255, 0, 0, 0.63); 
+    text-decoration: none;
+    
+}
+.b1:hover{
+
+    background-color: rgba(0, 0, 0, 0.63); 
+    text-decoration: none;
+    
+}
+.pb1{
+     color: white;
+     font-size: 40px;
+     font-family: 'Lobster', cursive;
+     
+}
+.jogar_link,.cadastro_link{
+    text-decoration: none;
+    
+}
+.b2{
+    margin-top: 2%;
+    margin-left: 39.5%;
+    width: 20%;
+    height: 65px;
+    box-shadow: 2px 6px;
+    border-radius: 20px;
+    background-color: rgba(255, 0, 0, 0.63); 
+    text-decoration: none;
+    
+}
+.b2:hover{
+    background-color: rgba(0, 0, 0, 0.63); 
+    text-decoration: none;
+    
+    
+ 
+}
+.pb2{
+     color: white;
+
+     font-size: 40px;
+     font-family: 'Lobster', cursive;
+     
+}

@@ -1,0 +1,23 @@
+#wordContainer {
+  margin-left: 8%;
+  margin-top: 10%;
+  width: 20%;
+}
+
+/* Estilo para as letras brancas */
+#wordContainer span {
+  color: white;
+  font-size: 450%;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+
+#guessesContainer {
+  margin-left: 10%;
+  text-transform: uppercase;
+  color: white;
+  font-size: 30px;
+  width: 20%;
+}
+

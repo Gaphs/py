@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jack's Save</title>
+  <link rel="stylesheet" href="tela_tema.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+  <script>
+    function abrirPagina() {
+      var temaSelecionado = document.querySelector('input[name="radio"]:checked').value;
+      var paginaCorrespondente ="forca.php";
+      
+      var novaJanela = window.open("", "_self");
+      
+      novaJanela.document.write("<h1>Carregando...</h1>");
+      novaJanela.document.close();
+      
+      novaJanela.location.href = paginaCorrespondente;
+    }
+  </script>
+</head>
+
+<body>
+  <h1 class="escolha">Escolha o tema</h1>
+
+  <form action="forca.php" method="post">
+    <label class="form-control">
+      <input type="radio" name="radio" value="frutas" />
+      <p class="temas">Frutas</p>
+    </label>
+
+    <label class="form-control">
+      <input type="radio" name="radio" value="animais" checked />
+      <p class="temas">Animais</p>
+    </label>
+
+    <label class="form-control">
+      <input type="radio" name="radio" value="objetos" />
+      <p class="temas">Objetos</p>
+    </label>
+
+    <button class="vamos" type="submit">
+      <p class="la">Vamos lá</p>
+    </button>
+  </form>
+
+  <button class="voltar">
+
+    <a href="index.html"><p class="p_voltar">Voltar</p></a>
+
+</button>
+</body>
+
+</html>
